@@ -1,0 +1,16 @@
+.content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__article {
+    min-height: 400px;
+    width: 75%;
+    font-size: 20px;
+}
+
+.content__ads {
+    min-height: 150px;
+    width: 20%;
+}

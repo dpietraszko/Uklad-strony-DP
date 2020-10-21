@@ -1,0 +1,46 @@
+:root {
+    --color-alfa: rgb(182, 67, 0);
+    --color-beta: rgb(0, 102, 128);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: auto;
+    height: auto;
+}
+
+/* .header__nav {
+
+    color: var(--color-alfa);
+} */
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu li {
+	padding: 5px;
+	margin: 5px;
+	list-style-type: none;
+	font-size: 24px;
+	min-height: 35px;
+	line-height: 200%;
+}
+
+.header__menu a {
+	color: var(--color-beta);
+	text-decoration: none;
+}
+
+.header__menu a:hover {
+	color: var(--color-alfa);
+}
+
+a.active {
+	color: var(--color-alfa);
+	cursor: default;
+}

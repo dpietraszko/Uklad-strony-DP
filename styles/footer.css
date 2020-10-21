@@ -1,0 +1,31 @@
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__copyrights {
+    width: 25%;
+	padding: 15px;
+    text-align: left;
+    font-weight: bold;
+	letter-spacing: 2px;
+}
+.footer__logo {
+    width: 25%;
+    text-align: center;
+}
+.footer__sponsor {
+    width: 25%;
+    color: rgb(0, 102, 128);
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.app-btn {
+    background-color: rgb(0, 102, 128); 
+    border: 1px solid rgb(255, 102, 128);
+}
+
+.app-btn--primary {
+    background-color: rgb(255, 255, 128);
+}
